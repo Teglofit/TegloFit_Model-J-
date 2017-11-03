@@ -1,4 +1,6 @@
 from django.contrib import admin
-from .models import Pesagem
+from .models import Pessoa,Pesagem
 
+admin.site.register(Pessoa)
 admin.site.register(Pesagem)
+
